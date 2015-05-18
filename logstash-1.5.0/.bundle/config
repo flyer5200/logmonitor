@@ -1,4 +1,0 @@
----
-BUNDLE_PATH: /opt/logmonitor/logstash-1.5.0/vendor/bundle
-BUNDLE_WITHOUT: build:development
-BUNDLE_GEMFILE: /opt/logmonitor/logstash-1.5.0/Gemfile
