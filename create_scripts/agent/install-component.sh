@@ -19,7 +19,7 @@ LOGSTASH_STDOUT=${LOGSTASH_PATH}/logs/stdout.log
 
 downloadArchive(){
    ! test -d ${INSTALL_PATH} && mkdir -p ${INSTALL_PATH}
-   ! test -f ${INSTALL_PATH}/logstash.tar.gz && wget http://10.0.0.213/cloud_repository/logmonitor/archives/logstash-1.5.0.tar.gz -O ${INSTALL_PATH}/logstash.tar.gz
+   ! test -f ${INSTALL_PATH}/logstash.tar.gz && wget ${DOWNLOAD_SERVER}/cloud_repository/logmonitor/archives/logstash-1.5.0.tar.gz -O ${INSTALL_PATH}/logstash.tar.gz
 }
 
 uncompression(){
