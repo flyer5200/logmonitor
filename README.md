@@ -8,7 +8,7 @@ create By `杨磊` at `2015-05-15`
 系统一大，就会拆分成多个独立的进程，比如web+wcf/web api等，也就成了分布式系统。
 要看一个请求怎么从头到尾走的，就有些困难了，要是进行DEBUG、跟踪，就更加麻烦了，困难程度要视进程多少而定，越多越复杂。分布式日志收集系统就登场了。
 
-开源日志收集、展示系统 - logstash+kibana+ElasticSearch+RabbitMQ
+开源日志收集、展示系统 - logstash+kibana+ElasticSearch+Redis/RabbitMQ
 
 ######基本架构图:
 
