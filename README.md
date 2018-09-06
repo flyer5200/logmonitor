@@ -1,6 +1,6 @@
 #分布式日志收集系统解决方案
 
-create By `杨磊` at `2015-05-15`
+create By `lc` at `2015-05-15`
 本文档采用[MarkdownPad 2](http://markdownpad.com/)编写, [Markdown 语法说明 ](http://wowubuntu.com/markdown/)
 
 ###前言
